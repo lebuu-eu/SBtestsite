@@ -1,13 +1,24 @@
 ---
-title: "SBtestsite"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
-page-layout: full
-title-block-banner: true
+title: "Contact"
 ---
 
+# Contact
+
+Feel free to reach out to me through any of the following methods:
+
+- **Email:** [your-email@example.com](mailto:your-email@example.com)
+- **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+- **Mastodon:** [mastodon.social/@yourprofile](https://mastodon.social/@yourprofile)
+- **GitHub:** [github.com/yourprofile](https://github.com/yourprofile)
+
+You can also fill out the contact form below:
+
+<form action="https://formspree.io/f/{your-form-id}" method="POST">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name"><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br>
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message"></textarea><br>
+  <input type="submit" value="Submit">
+</form>

@@ -5,15 +5,26 @@ website:
   title: "SBtestsite"
   navbar:
     right:
-      - about.qmd
-      - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+      - text: "HOME"
+        href: index.qmd
+      - text: "ABOUT"
+        href: about.qmd
+      - text: "POSTS"
+        href: posts.qmd
+      - text: "CONTACT"
+        href: contact.qmd
+
 format:
   html:
-    theme: cosmo
     css: styles.css
-
+    footer:
+      - icon: linkedin
+        href: https://linkedin.com
+      - icon: mastodon
+        href: https://mastodon.social
+      - icon: envelope
+        href: mailto:your-email@example.com
+      - icon: github
+        href: https://github.com/
 
 
