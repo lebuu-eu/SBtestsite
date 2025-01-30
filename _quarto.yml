@@ -2,8 +2,8 @@ project:
   type: website
 
 website:
-  title: "SBtestsite"
   navbar:
+    search: false
     right:
       - text: "HOME"
         href: index.qmd
@@ -13,11 +13,8 @@ website:
         href: posts.qmd
       - text: "CONTACT"
         href: contact.qmd
-
-format:
-  html:
-    css: styles.css
-    footer:
+  page-footer:
+    center: 
       - icon: linkedin
         href: https://linkedin.com
       - icon: mastodon
@@ -26,5 +23,13 @@ format:
         href: mailto:your-email@example.com
       - icon: github
         href: https://github.com/
+
+format:
+  html:
+    theme: sketchy
+    css: styles.css
+
+
+
 
 
